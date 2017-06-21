@@ -29,7 +29,7 @@ module Mjml
     nil
   end
 
-  BIN = discover_mjml_bin
+  BIN = '/usr/local/nodejs-binary-7.6.0/bin/mjml'
 
   class Handler
     def template_handler
