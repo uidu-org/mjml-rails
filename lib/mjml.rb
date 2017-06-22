@@ -29,7 +29,7 @@ module Mjml
     nil
   end
 
-  BIN = '/usr/local/bin/mjml'
+  BIN = 'mjml'
 
   class Handler
     def template_handler
