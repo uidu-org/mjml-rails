@@ -27,7 +27,7 @@ module Mjml
     #
     # @return [String] The result as string
     def run
-      command = "#{mjml_bin} -r #{in_tmp_file} -o #{out_tmp_file}"
+      command = "#{mjml_bin} -m -r #{in_tmp_file} -o #{out_tmp_file}"
       # puts command
       `#{command}`
       file = File.open(out_tmp_file, 'r')
